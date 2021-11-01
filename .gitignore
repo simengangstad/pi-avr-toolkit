@@ -1,3 +1,4 @@
-.ccls
+*.ccls
 *.hex
 *.bin
+avrdude.conf

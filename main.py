@@ -69,7 +69,7 @@ def bridge():
         # programming pins
         extra_configuration = AVRDUDE_CONF_LINUX_GPIO.format(
             mosi=args.mosi_pin,
-            miso=args.mosi_pin,
+            miso=args.miso_pin,
             sck=args.sck_pin,
             reset=args.reset_pin
         )
